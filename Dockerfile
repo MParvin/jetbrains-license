@@ -32,7 +32,7 @@ COPY src/main/resources ./src/main/resources
 RUN mkdir -p /app/src/main/resources/cert
 
 # Expose port
-EXPOSE 8081
+EXPOSE 8080
 
 # Set JVM parameters
 ENV JAVA_OPTS="-Xmx512m -Xms256m"
